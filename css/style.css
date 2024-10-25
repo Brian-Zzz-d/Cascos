@@ -1,0 +1,119 @@
+body {
+    background-color: rgb(161, 161, 161);
+    display: flex;
+    flex-direction: column;
+} 
+
+p {
+    color: black;
+}
+
+
+
+/* el responsive en del movil se queda vacia y los tamaños que sean para el movil se quedan fuera */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .circunference {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%; /*aumentar*/
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid #3498db;
+        margin-right: 25px;
+    
+    }
+    
+    img {
+        width: 167%;/* no tocar */
+        justify-content: center;
+        display: flex;
+    
+    }
+    
+    .circulo img {
+        width: 30%;
+        height: auto;
+    }
+    
+    /* .main-container{
+        display:flex; 
+        flex-direction: column;
+        height: 100vh;
+    } */
+    .main-left-container{
+        display:flex;
+        flex-direction:column;
+        justify-content:left;
+        height: 50vh;
+        border: 2px solid #3498db;
+    }
+    .main-right-container{
+        display: flex;
+        flex-direction: column;
+        justify-content:right;
+        height: 50vh;
+        border: 2px solid red;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+    .circunference {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #3498db;
+    margin-right: 40px;
+
+}
+
+img {
+    width: 167%;
+    justify-content: center;
+    display: flex;
+
+}
+
+.circulo img {
+    width: 50%;
+    height: auto;
+}
+
+.main-container{
+    display:flex; 
+    flex-direction: column;
+    height: 100vh;
+} 
+.main-left-container{
+    display:flex;
+    flex-direction:column;
+    justify-content:left;
+    height: 50vh;
+    border: 2px solid #3498db;
+}
+.main-right-container{
+    display: flex;
+    flex-direction: column;
+    justify-content:right;
+    height: 50vh;
+    border: 2px solid red;
+}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
