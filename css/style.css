@@ -1,146 +1,169 @@
 .circunference {
-    overflow: hidden;
-    display: flex;
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid #3498db;
-    margin-right: 25px;
+  overflow: hidden;
+  display: flex;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #3498db;
+  margin-right: 25px;
 
 }
 
 img {
-    width: 167%;/* no tocar */
-    justify-content: center;
-    display: flex;
+  width: 167%;
+  /* no tocar */
+  justify-content: center;
+  display: flex;
 
 }
 
 .circulo img {
-    width: 30%;
-    height: auto;
+  width: 30%;
+  height: auto;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
 }
 
 body {
-    background-color: #cac2c2;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+  background-color: #cac2c2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 /* Container*/
 .container {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: auto;
-    gap: 20px;
-    max-width: 1200px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: auto;
+  gap: 20px;
+  max-width: 1200px;
 }
 
 /* Profile*/
 .profile {
-    grid-column: span 2;
-    display: flex;
-    align-items: center;
-    background-color: #d7ff00;
-    padding: 20px;
-    border-radius: 10px;
+  grid-column: span 2;
+  display: flex;
+  align-items: center;
+  background-color: #d7ff00;
+  padding: 20px;
+  border-radius: 10px;
 }
 
+.profile-info {
+  display: flex; 
+  align-items: center;
+  gap: 10px; 
+}
+
+
 .profile-pic {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    margin-right: 15px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
 }
 
 .profile-info p {
-    margin: 5px 0;
+  margin: 5px 0;
 }
 
 .devices-active {
-    color: gray;
-    font-size: 0.8em;
+  color: gray;
+  font-size: 0.8em;
+}
+
+.device {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: #f3f3f3;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-bottom: 10px;
+  cursor: pointer;
 }
 
 /*Analytics section */
 .analytics {
-    background-color: white;
-    border-radius: 10px;
-    padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
 }
 
 .analytics h2 {
-    font-size: 1.2em;
-    margin-bottom: 5px;
+  font-size: 1.2em;
+  margin-bottom: 5px;
 }
 
 .analytics .device-list .device {
-    display: flex;
-    justify-content: center;
-    padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  cursor: pointer;
 }
 
 .device-name {
-    font-weight: bold;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 .device-info {
-    color: gray;
+  color: gray;
 }
 
 /* Scenes */
 .scenes {
-    grid-column: span 2;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+  grid-column: span 2;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
 }
 
 .scene {
-    background-color: white;
-    border-radius: 10px;
-    padding: 20px;
-    text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
 }
 
 .service {
-    background-color: #b0d6ff;
+  background-color: #b0d6ff;
 }
 
 .send {
-    background-color: #d7ff00;
+  background-color: #d7ff00;
 }
 
 .supplier {
-    background-color: green;
+  background-color: green;
 }
 
 .scene-down {
-    grid-column: span 3;
-    background-color: white;
-    border-radius: 10px;
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  grid-column: span 3;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .form {
-    background-color: black;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
