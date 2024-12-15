@@ -94,6 +94,9 @@ body {
   cursor: pointer;
 }
 
+.device:hover{
+  text-decoration: underline;
+}
 /*Analytics section */
 .analytics {
   background-color: white;
@@ -116,6 +119,7 @@ body {
 .device-name {
   font-weight: bold;
   cursor: pointer;
+  color: black;
 }
 
 .device-info {
@@ -143,6 +147,7 @@ body {
 
 .send {
   background-color: #d7ff00;
+  cursor: pointer;
 }
 
 .supplier {
